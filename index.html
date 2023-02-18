@@ -7,16 +7,31 @@
         <title>Landing Page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="styles.css">   
     </head>
     <body>
-        <h1>GOT MARKETING?<br>ADVANCE YOUR BUSINESS INSIGHT.</h1><br><br>
-        <p>Fill out the form and receive our award winning newsletter.</p>
-        <label>Name</label>
-        <input type="text" required>
-        <label>Email</label>
-        <input type="email" required>
-        <input type="Submit" value="Sign me up">
+        <div class="main-container">
+            <div class="container1">
+                <div class="text-container1">
+                    <h1>GOT MARKETING?<br>ADVANCE YOUR BUSINESS INSIGHT.</h1>
+                </div>
+                <div class="text-container2">
+                    <p>Fill out the form and receive our award winning newsletter.</p>
+                </div>
+            </div>
+            <form class="container2">
+                <div class="name-container">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="email-container">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" required><br>
+                    <button type="submit" value="submit">Sign me up</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
