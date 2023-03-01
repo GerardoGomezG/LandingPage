@@ -36,7 +36,7 @@ p {
 .text-container1 {
   display: flex;
   align-items: center;
-  width: 642px;
+  width: 425px;
   height: 212px;
   padding-top: 5em;
   padding-bottom: 5em;
@@ -44,15 +44,14 @@ p {
 
 .text-container2 {
   display: flex;
-  width: 641px;
+  width: 425px;
   height: 61px;
   padding-bottom: 5em;
 }
 
 .container2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   justify-content: space-around;
   height: 45vh;
   width: 100vw;
@@ -77,6 +76,7 @@ p {
   width: 303px;
   height: 92px;
   justify-self: center;
+  align-self: center;
 }
 
 label {
@@ -97,6 +97,6 @@ input {
 button {
   color: #fff;
   background-color: #5200ff;
-  width: 183px;
+  width: 303px;
   height: 63px;
 }
