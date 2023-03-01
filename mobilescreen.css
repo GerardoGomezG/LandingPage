@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.main-container {
+  display: grid;
+}
+
+.container1 { /* Contains background image and text-container */
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 100vw;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  background-image: url(./images/small.png);
+  background-size: cover;
+}
+
+.text-container1 {
+  display: flex;
+  align-items: center;
+  width: 642px;
+  height: 212px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.text-container2 {
+  display: flex;
+  width: 641px;
+  height: 61px;
+  padding-bottom: 5em;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+  height: 45vh;
+  width: 100vw;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.button-container {
+  display: flex;
+  width: 303px;
+  height: 92px;
+  justify-self: center;
+}
+
+label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+input {
+  margin-top: 14px;
+  width: 303px;
+  height: 65px;
+  box-sizing: border-box;
+  background-color: #ededed;
+  border: 1px solid #c7c7c7;
+}
+
+button {
+  color: #fff;
+  background-color: #5200ff;
+  width: 183px;
+  height: 63px;
+}

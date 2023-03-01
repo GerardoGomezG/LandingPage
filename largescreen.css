@@ -22,45 +22,56 @@ p {
 }
 
 .container1 { /* Contains background image and text-container */
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 50vw;
   color: #fff;
   text-align: right;
+  align-items: center;
+  justify-content: center;
   background-image: url(./images/large.png); /* Changes with screen size */
   background-size: cover;
 }
 
 .text-container1 {
-  position: absolute;
+  display: flex;
+  align-items: center;
   width: 423px;
-  height: 239px;
-  left: 104px;
-  top: 245px;
+  height: 439px;
 }
 
 .text-container2 {
-  position: absolute;
+  display: flex;
+  align-items: baseline;
   width: 423px;
   height: 90px;
-  left: 104px;
-  top: 511px;
 }
 
 .container2 {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   width: 50vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .name-container {
-  position: absolute;
-  top: 235px;
-  left: 734px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .email-container {
-  position: absolute;
-  top: 381px;
-  left: 734px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  width: 422px;
+  height: 65px;
 }
 
 label {
@@ -79,7 +90,6 @@ input {
 }
 
 button {
-  margin-top: 50px;
   color: #fff;
   background-color: #5200ff;
   width: 183px;

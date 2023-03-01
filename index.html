@@ -9,7 +9,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="styles.css">   
+        <link rel="stylesheet" media="screen and (min-width: 1008px)" href="largescreen.css">  
+        <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1007px)" href="smallscreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobilescreen.css">
     </head>
     <body>
         <div class="main-container">
@@ -28,7 +30,9 @@
                 </div>
                 <div class="email-container">
                     <label for="email">Email</label><br>
-                    <input type="email" id="email" required><br>
+                    <input type="email" id="email" required><br>             
+                </div>
+                <div class="button-container">
                     <button type="submit" value="submit">Sign me up</button>
                 </div>
             </form>
